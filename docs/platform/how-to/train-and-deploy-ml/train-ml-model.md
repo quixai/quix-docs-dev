@@ -22,12 +22,10 @@ You will need Python3 installed.
 
 You’ll need some data stored in the Quix platform. You can use any of
 our Data Sources available in the samples Library, or just follow the
-onboarding process when you [sign-up to
-Quix,window=\_blank](https://portal.platform.quix.ai/self-sign-up/).
+onboarding process when you [sign-up to Quix](https://portal.platform.quix.ai/self-sign-up/){target=_blank}
 
 You’ll also need a Jupyter notebook environment to run your experiments
-and load data for training. Please use ["How to work with Jupyter
-notebook"](../jupyter-nb.md).
+and load data for training. Please use ["How to work with Jupyter notebook"](../jupyter-nb.md).
 
 ### Install required libraries
 
