@@ -24,6 +24,12 @@ You’ll need some data stored in the Quix platform. You can use any of
 our Data Sources available in the samples Library, or just follow the
 onboarding process when you [sign-up to Quix](https://portal.platform.quix.ai/self-sign-up/){target=_blank}
 
+!!! tip 
+	
+	If in doubt, login to the Quix Portal, navigate to the Library and deploy "Demo Data - Source".
+	
+	This will provide you with some real-time data for your experiments.
+
 You’ll also need a Jupyter notebook environment to run your experiments
 and load data for training. Please use ["How to work with Jupyter notebook"](../jupyter-nb.md).
 
@@ -252,8 +258,7 @@ ax2.plot(X["Speed"]/X["Speed"].max())
 
 ### Saving model
 
-When you are confident with the results, save the model into a file and
-**commit it to GIT**.
+When you are confident with the results, save the model into a file.
 
 ``` python
 pickle.dump(decision_tree, open('./decision_tree_5_depth.sav', 'wb'))
