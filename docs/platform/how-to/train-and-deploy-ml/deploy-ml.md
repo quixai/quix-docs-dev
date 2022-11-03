@@ -106,7 +106,8 @@ python3 -m pip install sklearn
 and add it to `requirements.txt` file in your project to run this code
 in Quix serverless environment.
 
-quixstreaming==0.2.2a202101281720 sklearn\</programlisting\>
+quixstreaming==0.2.2a202101281720
+sklearn
 
 ## Using Pickle file in realtime model
 
