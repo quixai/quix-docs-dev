@@ -36,6 +36,10 @@ python3 -m pip install mlflow
 python3 -m pip install matplotlib
 ```
 
+!!! note 
+	
+	If you get an 'Access Denied' error installing mlflow try adding '--user' to the install command or run the installer from an Anaconda Powershell Prompt (with --user)
+
 !!! tip
 
 	If you don’t see **Python3** kernel in your Jupyter notebook, execute the following commands in your python environment: 
@@ -68,27 +72,26 @@ from sklearn.tree import DecisionTreeClassifier
 
 ### Getting training data
 
-Quix web application has a python code generator to help you connect
-your Jupyter notebook to Quix.
+The Quix web application has a python code generator to help you connect your Jupyter notebook with Quix.
 
-1.  Go to the platform
+You need to be logged into the platform for this:
 
-2.  Select workspace
+1.  Select workspace (you likley only have one)
 
-3.  Go to the Data catalogue ![icons/data-icon.png](../../images/icons/data-icon.png)
+2.  Go to the Data Explorer
 
-4.  Select car data stream to visualize
-    ![icons/visualize-icon.png](../../images/icons/visualize-icon.png)
+3.  Add a query to visualize some data. Select parameters, events, aggregation and time range
 
-5.  Select `Brake`, `Motion_Yaw`, `Steer`, `Speed`, `Gear` parameters
+	!!! note
+		Select `Brake`, `Motion_WorldPositionX`, `Steer`, `Speed`, `Gear` parameters and turn off aggregation!
 
-6.  Press **Connect** button
+4.  Select the **Code** tab
 
-7.  Select **Python** language
-
-8.  Copy Python code to your Jupyter notebook and execute.
+5.  Ensure **Python** is the selected language
 
 ![how-to/jupyter-wb/connect-python.png](../../images/how-to/jupyter-wb/connect-python.png)
+
+Copy the Python code to your Jupyter notebook and execute.
 
 ![how-to/jupyter-wb/jupyter-results.png](../../images/how-to/jupyter-wb/jupyter-results.png)
 
@@ -98,18 +101,19 @@ your Jupyter notebook to Quix.
 
 ### Preprocessing of features
 
-We will prepare data for training by applying some transformation on
-downloaded data.
+We will prepare data for training by applying some transformation on the downloaded data.
+
+Execute this in your notebook:
 
 ``` python
-## Convert yaw angle to continuous values
-df["Motion_Yaw_sin"] = df["Motion_Yaw"].map(lambda x: math.sin(x))
-df["Motion_Yaw_cos"] = df["Motion_Yaw"].map(lambda x: math.cos(x))
+## Convert motion to continuous values
+df["Motion_WorldPositionX_sin"] = df["Motion_WorldPositionX"].map(lambda x: math.sin(x))
+df["Motion_WorldPositionX_cos"] = df["Motion_WorldPositionX"].map(lambda x: math.cos(x))
 ```
 
 #### Preprocessing of label
 
-Here we simplify breaking to boolean.
+Here we simplify braking to a boolean value.
 
 ``` python
 ## Conversion of label
@@ -118,8 +122,7 @@ df["Brake_bool"] = df["Brake"].map(lambda x: round(x))
 
 ### Generate advanced brake signal for training
 
-Now we need to shift breaking 5 seconds ahead to train model to predict
-breaking 5 seconds ahead.
+Now we need to shift breaking 5 seconds ahead to train the model to predict breaking 5 seconds ahead.
 
 ``` python
 ## Offset dataset and trim it
@@ -174,7 +177,7 @@ kfold = KFold(5, shuffle=True, random_state=1)
 with mlflow.start_run():
     class_weight = None
     max_depth = 5
-    features = ["Motion_Yaw_cos", "Motion_Yaw_sin", "Steer", "Speed", "Gear"]
+    features = ["Motion_WorldPositionX_cos", "Motion_WorldPositionX_sin", "Steer", "Speed", "Gear"]
 
     mlflow.log_param("class_weight", class_weight)
     mlflow.log_param("max_depth", max_depth)
@@ -267,7 +270,7 @@ MLflow.
 
 !!! warning
 
-	MLflow is working only in MacOS, Linux or Windows linux subsystem.
+	MLflow works only on MacOS, Linux or Windows linux subsystem (WSL).
 
 !!! tip
 
