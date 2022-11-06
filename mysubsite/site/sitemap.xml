@@ -1,367 +1,367 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://quix.io/</loc>
+         <loc>https://quix.io/index.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/</loc>
+         <loc>https://quix.io/apis/index.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/portal-api/</loc>
+         <loc>https://quix.io/apis/portal-api.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/aggregate-tags/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/aggregate-tags.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/aggregate-time/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/aggregate-time.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/authenticate/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/authenticate.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/filter-tags/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/filter-tags.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/get-swagger/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/get-swagger.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/intro/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/intro.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/raw-data/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/raw-data.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/request/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/request.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/streams-filtered/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/streams-filtered.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/streams-models/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/streams-models.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/data-catalogue-api/streams-paged/</loc>
+         <loc>https://quix.io/apis/data-catalogue-api/streams-paged.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-reader-api/authenticate/</loc>
+         <loc>https://quix.io/apis/streaming-reader-api/authenticate.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-reader-api/intro/</loc>
+         <loc>https://quix.io/apis/streaming-reader-api/intro.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-reader-api/reading-data/</loc>
+         <loc>https://quix.io/apis/streaming-reader-api/reading-data.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-reader-api/signalr/</loc>
+         <loc>https://quix.io/apis/streaming-reader-api/signalr.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-reader-api/subscriptions/</loc>
+         <loc>https://quix.io/apis/streaming-reader-api/subscriptions.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/authenticate/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/authenticate.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/create-stream/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/create-stream.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/get-swagger/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/get-swagger.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/intro/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/intro.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/request/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/request.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/send-data/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/send-data.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/send-event/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/send-event.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/signalr/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/signalr.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/apis/streaming-writer-api/stream-metadata/</loc>
+         <loc>https://quix.io/apis/streaming-writer-api/stream-metadata.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/MLOps/</loc>
+         <loc>https://quix.io/platform/MLOps.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/definitions/</loc>
+         <loc>https://quix.io/platform/definitions.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/intro/</loc>
+         <loc>https://quix.io/platform/intro.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/landing-page/</loc>
+         <loc>https://quix.io/platform/landing-page.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/create-dlq/</loc>
+         <loc>https://quix.io/platform/how-to/create-dlq.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/get-workspace-id/</loc>
+         <loc>https://quix.io/platform/how-to/get-workspace-id.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/jupyter-nb/</loc>
+         <loc>https://quix.io/platform/how-to/jupyter-nb.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/use-sdk-token/</loc>
+         <loc>https://quix.io/platform/how-to/use-sdk-token.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/webapps/</loc>
+         <loc>https://quix.io/platform/how-to/webapps.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/train-and-deploy-ml/deploy-ml/</loc>
+         <loc>https://quix.io/platform/how-to/train-and-deploy-ml/deploy-ml.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/train-and-deploy-ml/train-ml-model/</loc>
+         <loc>https://quix.io/platform/how-to/train-and-deploy-ml/train-ml-model.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/webapps/read/</loc>
+         <loc>https://quix.io/platform/how-to/webapps/read.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/how-to/webapps/write/</loc>
+         <loc>https://quix.io/platform/how-to/webapps/write.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/samples/samples/</loc>
+         <loc>https://quix.io/platform/samples/samples.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/security/security/</loc>
+         <loc>https://quix.io/platform/security/security.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/troubleshooting/troubleshooting/</loc>
+         <loc>https://quix.io/platform/troubleshooting/troubleshooting.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/ImageProcessing/</loc>
+         <loc>https://quix.io/platform/tutorials/ImageProcessing.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/RSSProcessingPipeline/</loc>
+         <loc>https://quix.io/platform/tutorials/RSSProcessingPipeline.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/currency-alerting/</loc>
+         <loc>https://quix.io/platform/tutorials/currency-alerting.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/nocode-sentiment-analysis/</loc>
+         <loc>https://quix.io/platform/tutorials/nocode-sentiment-analysis.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/quick-start/</loc>
+         <loc>https://quix.io/platform/tutorials/quick-start.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/sentimentAnalysis/</loc>
+         <loc>https://quix.io/platform/tutorials/sentimentAnalysis.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/platform/tutorials/telemetry-data/</loc>
+         <loc>https://quix.io/platform/tutorials/telemetry-data.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/connect/</loc>
+         <loc>https://quix.io/sdk/connect.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/docker-setup/</loc>
+         <loc>https://quix.io/sdk/docker-setup.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/introduction/</loc>
+         <loc>https://quix.io/sdk/introduction.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/kafka/</loc>
+         <loc>https://quix.io/sdk/kafka.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/process/</loc>
+         <loc>https://quix.io/sdk/process.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/python-setup/</loc>
+         <loc>https://quix.io/sdk/python-setup.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/read/</loc>
+         <loc>https://quix.io/sdk/read.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/state-management/</loc>
+         <loc>https://quix.io/sdk/state-management.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/write/</loc>
+         <loc>https://quix.io/sdk/write.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/broker-configuration/</loc>
+         <loc>https://quix.io/sdk/features/broker-configuration.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/builtin-buffers/</loc>
+         <loc>https://quix.io/sdk/features/builtin-buffers.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/checkpointing/</loc>
+         <loc>https://quix.io/sdk/features/checkpointing.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/data-frames/</loc>
+         <loc>https://quix.io/sdk/features/data-frames.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/data-serialization/</loc>
+         <loc>https://quix.io/sdk/features/data-serialization.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/horizontal-scaling/</loc>
+         <loc>https://quix.io/sdk/features/horizontal-scaling.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/in-memory-processing/</loc>
+         <loc>https://quix.io/sdk/features/in-memory-processing.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/integrations/</loc>
+         <loc>https://quix.io/sdk/features/integrations.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/message-compression/</loc>
+         <loc>https://quix.io/sdk/features/message-compression.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/message-splitting/</loc>
+         <loc>https://quix.io/sdk/features/message-splitting.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/multiple-data-types/</loc>
+         <loc>https://quix.io/sdk/features/multiple-data-types.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/portability/</loc>
+         <loc>https://quix.io/sdk/features/portability.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quix.io/sdk/features/streaming-context/</loc>
+         <loc>https://quix.io/sdk/features/streaming-context.html</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
