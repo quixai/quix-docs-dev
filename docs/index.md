@@ -1,8 +1,8 @@
-# Welcome to the Quix Documentation Portal
+# Quix Documentation Portal
 
 ## Tutorials
  
-Use these guides to get started with building data-driven apps and integrate Quix with external systems.
+Learn how to build data-driven apps and integrate Quix with external systems.
 
 <div class="grid cards" markdown>
 
