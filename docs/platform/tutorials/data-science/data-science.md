@@ -1,6 +1,6 @@
 # Data Science with Quix: NY Bikes
 
-This guide will take you through the steps to perform CityBikes and OpenWeather API requests using Quix, including getting an OpenWeather account.
+Throughout this tutorial you will learn how to deploy a real-time data science project from scratch and into a scalable self-maintained solution. We will predict bike availability in New York by building the raw data ingestion pipelines, ETL and predictions. All in real time!
 
 ## Introduction
 
@@ -126,7 +126,7 @@ You now have a working real time stream of bike data. Now use the OpenWeather ac
 
 	One service publishing New York CitiBike data to a topic and another publishing OpenWeather data.
 
-## 4. Visualize the data
+## 4. View and store the data
 
 With Quix it's easy to visualize your data in a powerful and flexible way, you can see the real-time data and view historic data.
 
@@ -150,11 +150,11 @@ At it's heart Quix is a real-time data platform, so if you want to see data-at-r
 
 ### Historic
 
-We will need historic data stored in the data catalogue for the next steps. So follow these steps to enable it.
+In order to train a machine learning model we will need to store the data we are ingesting so that we start building a historic dataset. However topics are real time infrastructures, not designed for data storage. To solve this, Quix allows you to send the data going through a topic to an efficient real time database if you need it:
 
 1. Navigate to the topics page using the left hand navigation
 
-2. Locate the topic(s) you want to explore data for (in this case `bikes-topic` and `weather-topic`)
+2. Locate the topic(s) you want to store data for (in this case `bikes-topic` and `weather-topic`)
 
 3. Click the toggle in the Persistence column to `on`
 
@@ -172,9 +172,7 @@ Follow the along and we'll show you how to get data out of Quix so you can train
 
 We mentioned earlier in [Weather real time stream](#3-weather-real-time-stream) that free access to the OpenWeather API only allows us to consume new data every 30 minutes therefore, at this point you will have a limited data set.
 
-You can leave the data consumption process running overnight or for a few days to gather more data.
-
-In the mean time continue with the tutorial, just know that having more data to train your model will make it better.
+You can leave the data consumption process running overnight or for a few days to gather more data, but for the time being there's no problem in continuing with the tutorial with your limited historic data.
 
 #### Get the data
 
@@ -204,7 +202,9 @@ In the mean time continue with the tutorial, just know that having more data to 
 
 9. Select the `Code` tab to view the code to access this data set from outside of Quix
 
-Now train a model in your usual way using this data.
+### Train the model
+
+At this point, you are generating historic data and know how to query it. You can train your ML models as soon as you've gathered enough data.
 
 !!! example "Need help?"
 
@@ -212,13 +212,11 @@ Now train a model in your usual way using this data.
 
 	We walk you through the process of getting the code to access the data (as described above), running the code in a Jupyter notebook, training the model and uploading your pickle file to Quix.
 
+However, it would take several weeks to accumulate enough historic data to train a model, so let's continue the tutorial with some pre-trained models we have provided. We've done it using the very same data flow you've just built, and can find the Jupyter notebook code we used [here](https://github.com/quixai/NY-bikes-tutorial/blob/1stversion/notebooks-and-sample-data/04%20-%20Train%20ML%20models.ipynb){target=_blank}.
+
 ## 6. Run the model
 
-At this point you should have a trained ML model. If not we have trained two models for you using the same data sources outlined above. These are available in the code that we'll show you how to access next.
-
-<!-- Download the model from our GitHub [here](https://github.com/quixai/NY-bikes-tutorial/blob/1stversion/notebooks-and-sample-data/ML_1day_Forecast.pickle){target=_blank}
-
-!!! tip "Click the 'download' button" -->
+We have included our trained model artifacts as pickle files in the prediction code project and uploaded it to the open source library, so let's use them.
 
 ### Prediction service code
 
@@ -268,11 +266,9 @@ You can now run the prediction model from this 'dev' environment to make sure it
 	
 	!!! note "Data"
 	
-		Running the code will consume any data that is waiting in the `bikes-topic` and `weather-topic`.
-		
-		As previously stated the OpenWeather API free account has limites on the amount of data that can be consumed so we limit the rate to one read every 30 minutes.
-		
-		To get around this you can stop and then start the OpenWeather API service. This will obviously use more of your free quota so don't do this too many times.
+		For a new prediction to be generated, the service has to receive data from both bikes (updated often) and weather feeds (only updated every 30 mins).
+
+		When you test the model, you may want to force the weather service to produce some new data (to avoid waiting for 30 mins) by restarting the service: stop it and then re-deploy it. By doing this it will start generating predictions sooner.
 		
 ### Deploy
 
