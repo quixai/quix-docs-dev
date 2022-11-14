@@ -116,7 +116,7 @@ method to append or update data of an existing stream.
 
 ### Stream Properties
 
-As an option, you can add context to your streams by adding a name, some
+You can optionally add context to your streams by adding a name, some
 metadata, or a default location.
 
 You can add this metadata to a stream using the `Properties` options of
