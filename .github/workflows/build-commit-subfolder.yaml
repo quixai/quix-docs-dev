@@ -77,9 +77,7 @@ jobs:
       with:
         inlineScript: |
             az login --service-principal -u e4c6c5fb-9968-4aac-bb7b-09adf7ae9ee7 -p ${{ secrets.DOCSBOT_SECRET }} --tenant 07dc27cd-da6f-4de6-b83d-c4eed0a10602
-            echo "storage container create --name pr${{ steps.findandreplace2.outputs.value }} --public-access container --account-name quixdocs --auth-mode key"
             az storage container create --name pr${{ steps.findandreplace2.outputs.value }} --public-access container --account-name quixdocs --auth-mode key
-            echo "az storage blob upload-batch --account-name quixdocs --auth-mode key -d 'pr${{ steps.findandreplace2.outputs.value }}' -s site"
             az storage blob upload-batch --account-name quixdocs --auth-mode key -d 'pr${{ steps.findandreplace2.outputs.value }}' -s site
 
   # Azure logout
