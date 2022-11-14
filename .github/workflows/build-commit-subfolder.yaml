@@ -9,10 +9,10 @@ env:
 on:
   workflow_dispatch:
   push:
-    branches:
-      - 'dev'
-    paths:
-      - '**.md'
+    #branches:
+    #  - 'dev'
+    #paths:
+    #  - '**.md'
   pull_request:
     types: [opened, reopened]
     # Only trigger automatically when certain tags are added
@@ -32,7 +32,7 @@ jobs:
       id: findandreplace1
       with:
         source: ${{ env.SITE_DIR }}
-        find: 'ref/heads/'    
+        find: 'refs/pull/'    
         replace: ''           
 
     - name: Remove last part of PR ref
